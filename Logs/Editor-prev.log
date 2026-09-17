@@ -1,0 +1,432 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 16460)
+VBCSCompiler prewarm took 11.76 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-morga" at "2026-09-16T03:59:42.9505855Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32455 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-16T03:59:42Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 40616, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              3c74e74736944bdbbe414b06a3750757
+  Correlation Id:          2bccf2cc3c0d8bbcbb15a0aa1c575a80
+  External correlation Id: 987285771228195140
+  Machine Id:              IREUCsox+rr0bDY44OOfOqowDQ4=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-morga" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-morga-notifications" at "2026-09-16T03:59:43.0111243Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token sWF4gnEJsD...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475912216587-night-dragon-studios-UnityProStuXXXX
+  Product: Unity Student
+  Type: Assigned
+  Expiration: 2026-12-11T23:01:23Z
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.07s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectpath
+C:\Users\morga\GD205_FA26_Morgaan_Holmes
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-morga
+-hubSessionId
+d7c6fb9e-07e8-4b28-88de-f0205f0e1e40
+-accessToken
+sWF4gnEJsDUPldcIXYRxPXNKGFCxRbUsrZJY8aeyKVw002f
+Successfully changed project path to: C:\Users\morga\GD205_FA26_Morgaan_Holmes
+C:/Users/morga/GD205_FA26_Morgaan_Holmes
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [37088]  Target information:
+
+Player connection [37088]  * "[IP] 192.168.1.42 [Port] 55504 [Flags] 2 [Guid] 4137548842 [EditorId] 4137548842 [Version] 1048832 [Id] WindowsEditor(7,Morgaan) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37088] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37088] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-11804" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 9a57e0648785f89ac797711da808b0a8
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: false
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/morga/GD205_FA26_Morgaan_Holmes[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/morga/GD205_FA26_Morgaan_Holmes/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5050 Laptop GPU (ID=0x2d98)
+    Vendor:   NVIDIA
+    VRAM:     7822 MB
+    Driver:   32.0.15.7313
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001899 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1293ms
+	BeginReloadAssembly (146ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (128ms)
+		TypeCache.Refresh (222ms)
+			TypeCache.ScanAssembly (208ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (732ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 59 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.searcher@4.9.5 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.render-pipelines.universal@8457e85b8184)
+    com.unity.test-framework@1.8.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.timeline@281d5f7e7d7d)
+    com.unity.ugui@2.6.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.shadergraph@ef6135652377)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.burst@2.0.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\morga\GD205_FA26_Morgaan_Holmes\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.03 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/morga/GD205_FA26_Morgaan_Holmes
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+ExitCode: 0 Duration: 0s399ms
+[756/970    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.34 seconds), 1 items updated, 970 evaluated
+AssetDatabase: script compilation time: 0.923406s
+Total cache size 63458796
+Total cache size after purge 63458796, took 00:00:00.0826508
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.916 seconds
+Domain Reload Profiling: 1846ms
+	BeginReloadAssembly (244ms)
+		DisableScriptedObjects (36ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (597ms)
+		LoadAssemblies (349ms)
+		TypeCache.Refresh (149ms)
+			TypeCache.ScanAssembly (137ms)
+		AnalyzeDomain (66ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (917ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (118ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Starting new worker id: 0 with log in C:/Users/morga/GD205_FA26_Morgaan_Holmes/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=8fbeb2d575c8826429e0be47c95bbbe8): Total: 3.393 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1349 ms
+		Asset DB Callback time: managed=35 ms, native=28 ms
+		Scripting: domain reloads=1, domain reload time=987 ms, compile time=927 ms, other=66 ms
+		Project Asset Count: scripts=1370, non-scripts=2318
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 30.267ms
+	ApplyChangesToAssetFolders: 0.581ms
+	Scan: 104.849ms
+	Collect global state as custom dependencies: 18.186ms
+	CategorizeScriptCompilationAssets: 38.894ms
+	ProcessAssetsWithTransientArtifactChanges: 63.227ms
+	CategorizeAssets: 47.499ms
+	CompileScripts: 926.554ms
+	ImportOutOfDateAssets: 941.779ms (924.173ms without children)
+		UnloadImportedAssets: 0.750ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.624ms
+		ImportSchedulerStart: 16.192ms
+	PostProcessAllAssets: 35.632ms
+		MonoPostProcessAllAssets: 35.570ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 14.379ms
+			SyncVS.PostprocessSyncProject 3.239ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.726ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.568ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.073ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.727ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.531ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.255ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.245ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.208ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.158ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.156ms
+	UnloadStreamsBegin: 1.387ms
+	PersistCurrentRevisions: 0.162ms
+	GenerateScriptTypeHashes: 1.214ms
+	GenerateScriptTypeSerializationHashes: 2.221ms
+	Untracked: 1162.183ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 1.749ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-GD205_FA26_Morgaan_Holmes
+Unloading 61 Unused Serialized files (Serialized files now loaded: 0)
+Problem detected while opening the Scene file: 'Assets/Scenes/SampleScene.unity'.
+Check the following logs for more details.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:Internal_RestoreLastOpenedScenes ()
+
+[C:\build\output\unity\unity\Runtime\PreloadManager\LoadSceneOperation.cpp line 860]
+
+Prefab instance problem. Missing Prefab Asset: 'ChessBoard (Missing Prefab with guid: d8d671d9c52c662498379ec30c80a0c2)'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorApplication:Internal_RestoreLastOpenedScenes ()
+
+[C:\build\output\unity\unity\Runtime\BaseClasses\ErrorsAndWarningsCapture.cpp line 77]
+
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            3.480 ms
+	Integration:            17.337 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   20.844 ms
+Unloading 6622 unused Assets / (15.7 MB). Loaded Objects now: 7562.
+Memory consumption went from 422.2 MB to 406.5 MB.
+Total: 16.017200 ms (FindLiveObjects: 0.673300 ms CreateObjectMapping: 0.467200 ms MarkObjects: 8.734400 ms  DeleteObjects: 4.661600 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\morga\GD205_FA26_Morgaan_Holmes\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/morga/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 8.473 seconds
+	Project init time: 				6.786 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.283 seconds
+		Asset Database init time: 		0.882 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			1.341 seconds
+		Unity extensions init time: 	0.037 seconds
+		Asset Database refresh time: 	3.394 seconds
+	Scene opening time: 			1.191 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1789531191400,"processId":11804,"projectLoad":8.472516800000001,"projectInit":6.7864793,"templateInit":0.0,"packageManagerInit":0.2825178,"assetDatabaseInit":0.8818019,"globalIlluminationInit":0.003678,"assembliesLoad":1.3411479,"unityExtensionsInit":0.0370173,"assetDatabaseRefresh":3.3937328,"sceneOpening":1.190676}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1789531191401,"processId":11804,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+Worker ready: AssetImportWorkerHW0 0
+GPU Resident Drawer created.
+Asset Pipeline Refresh (id=bec11bedd4ba6bf4e933d3e7d4aab845): Total: 0.080 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/morga/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.019s, timestamps: [9.818 - 9.837]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "sWF4gnEJ"... (expires: 2026-09-16T05:44:26Z)
+Starting new worker id: 1 with log in C:/Users/morga/GD205_FA26_Morgaan_Holmes/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '26e53e846e4596d30813f4e1033ed27a') in 0.1011098 seconds
+UPID Received 'c4c02f0b-72e7-47a3-b2f0-e47c8e48b3cc'.
+[Licensing::Client] Successfully resolved entitlement details
+Worker ready: AssetImportWorkerHW1 1
+Importing 'GUID: 69ab6542e3d228b42a276240eee36fb3 - Path: Assets/MayaImports/ChessBoard.fbx' with importer (FBXImporter)
+Imported 'GUID: 69ab6542e3d228b42a276240eee36fb3' -> (Import Result ID: '6df7427a6e776f327f22306a904b132e') in 0.085 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4026f68191bd320f791539a2039a6158 DependenciesID=8e059b44ec889c06b84cb54a13a0e61f StaticDependenciesID=711c3b743e3f1e8f0b0c7c4d71c49456 
+Asset Pipeline Refresh (id=a5c9b78b2dbe8aa458c34f2f31595a8d): Total: 0.221 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+TrimDiskCacheJob: Current cache size 0mb
+[Worker0] Imported GUID: 69ab6542e3d228b42a276240eee36fb3 - Path: Assets/MayaImports/ChessBoard.fbx - Importer: PreviewImporter -> (ImportResultId: '003807afe1a4ad6811e9f6336202abef') in 1.0567941 seconds
+[Worker1] Imported GUID: 69ab6542e3d228b42a276240eee36fb3 - Path: Assets/MayaImports/ChessBoard.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2ecf3ce70533aa1a8c2dbe39a861e9cb') in 0.2593743 seconds
+Asset Pipeline Refresh (id=19be3f18e60027d4db561a9103e28f92): Total: 0.050 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=036d8b0d14ee80044b8f74032e5e60c1): Total: 0.016 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+Importing 'GUID: 00000000000000009000000000000000 - Path: ProjectSettings/QualitySettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000009000000000000000' -> (Import Result ID: '8151b601d05d3e12de314c2aa1f82962') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2a108b3da874f726c62fbe5f12be4a8a DependenciesID=6180c49ef29638684367d2893c04e070 StaticDependenciesID=5b19720d9149525484b40148944c8e26 
+Asset Pipeline Refresh (id=5002790a05f19b84188b329de20716a3): Total: 0.027 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '3619ba9e66c33bb1c7f77725228b92db') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=b4491ddbae88a879b6308480a6079ca7 DependenciesID=59296abc09886a85d0952a1d01789bf6 StaticDependenciesID=c29cf961fbd5131d19f88d8b3c70673f 
+Asset Pipeline Refresh (id=81ceab72f704fc540ad676ca53ea1d83): Total: 0.040 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+MonoPathRemapper: Attempts to remap: 33708; Successful remaps: 18952
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout C:\Users\morga\GD205_FA26_Morgaan_Holmes\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/morga/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+GPU Resident Drawer disposed.
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-morga-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-morga channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+Shut down UDS service system complete
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+abort_threads: Failed aborting id: 00000000000046B8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000A3D0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006D68, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 00000000000046B8, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 000000000000A3D0, mono_thread_manage will ignore it
+
+abort_threads: Failed aborting id: 0000000000006D68, mono_thread_manage will ignore it
+
+debugger-agent: Unable to listen on 4012
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1789531267522,"processId":11804,"allocatedMemory":18002239,"memoryLabels":[{"Default":211675},{"Permanent":15516},{"NewDelete":71361},{"Thread":4198024},{"Manager":2337381},{"VertexData":8},{"Geometry":816},{"Shader":854093},{"Material":24},{"TextureCache":304},{"GfxDevice":55968},{"Animation":952},{"Audio":984},{"FreeType":8},{"FontEngine":736},{"Physics":1970},{"Physics2D":16},{"Serialization":33248},{"Input":45280},{"JobScheduler":256},{"TextLib":21511},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1271576},{"BaseObject":49296},{"Resource":1208},{"Renderer":2384},{"Transform":4685},{"File":31153},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":441324},{"StaticString":3808},{"Utility":2674461},{"Curl":48},{"PoolAlloc":2840},{"AI":80},{"TypeTree":17165},{"ScriptManager":12640},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"Director":8296},{"CloudService":7584},{"WebRequest":5110},{"VR":49650},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":936},{"Camera":729},{"Secure":265},{"SerializationCache":9256},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":768},{"Hierarchy":1188},{"UIElements":40},{"CoreStats":14456},{"Identifiers":7152},{"Gui":268237},{"EditorUtility":160268},{"VersionControl":8},{"Undo":931},{"AssetDatabase":4669715},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":36881},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":96},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3600},{"Windowing":456},{"Licensing":12856},{"AssetReference":32},{"IPCStream":32}]}
